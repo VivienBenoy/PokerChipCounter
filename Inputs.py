@@ -1,4 +1,4 @@
-import User
+from User import User
 
 def get_users():
     users = []

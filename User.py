@@ -1,5 +1,5 @@
 class User:
-    def player_info(self,index,name,chipCount):
+    def __init__(self, index, name, chip_count):
         self.index = index
-        self.name=name
-        self.chipCount=chipCount
+        self.name = name
+        self.chip_count = chip_count
