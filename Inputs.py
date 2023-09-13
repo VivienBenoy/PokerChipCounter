@@ -1,4 +1,4 @@
-import User.py
+import User
 
 def get_users():
     users = []
@@ -11,4 +11,3 @@ def get_users():
         users.append(user)
 
     return users
-
